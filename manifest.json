@@ -13,7 +13,7 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#17494D"
+          "value": "#40A9FF"
         },
         {
           "identifier": "brand_text_color",
@@ -27,14 +27,21 @@
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "#2F3941"
+          "value": "#000000"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#1F73B7"
+          "value": "#40A9FF"
+        },
+        {
+          "identifier": "banner_link_color",
+          "type": "color",
+          "description": "banner_link_color_description",
+          "label": "banner_link_color_label",
+          "value": "#FFFFFF"
         },
         {
           "identifier": "hover_link_color",
@@ -140,7 +147,7 @@
           "type": "list",
           "description": "text_font_description",
           "label": "text_font_label",
-          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+          "value": "'Avenir Next LT Pro', sans-serif",
           "options": [
             {
               "label": "System",
@@ -153,6 +160,10 @@
             {
               "label": "Arial Black",
               "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Avenir Next LT Pro",
+              "value": "'Avenir Next LT Pro', sans-serif"
             },
             {
               "label": "Baskerville",
@@ -214,10 +225,10 @@
       "label": "brand_group_label",
       "variables": [
         {
-          "identifier": "logo",
+          "identifier": "help_center_logo",
           "type": "file",
-          "description": "logo_description",
-          "label": "logo_label"
+          "description": "help_center_logo_description",
+          "label": "help_center_logo_label"
         },
         {
           "identifier": "show_brand_name",
@@ -231,6 +242,30 @@
           "type": "file",
           "description": "favicon_description",
           "label": "favicon_label"
+        },
+        {
+          "identifier": "lessons_icon",
+          "type": "file",
+          "description": "lessons_icon_description",
+          "label": "lessons_icon_label"
+        },
+        {
+          "identifier": "manual_icon",
+          "type": "file",
+          "description": "manual_icon_description",
+          "label": "manual_icon_label"
+        },
+        {
+          "identifier": "helpcenter_icon",
+          "type": "file",
+          "description": "helpcenter_icon_description",
+          "label": "helpcenter_icon_label"
+        },
+        {
+          "identifier": "right_arrow_icon",
+          "type": "file",
+          "description": "right_arrow_icon_description",
+          "label": "right_arrow_icon_label"
         }
       ]
     },
