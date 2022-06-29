@@ -289,6 +289,12 @@
           "type": "file",
           "description": "community_image_description",
           "label": "community_image_label"
+        },
+        {
+          "identifier": "learn_more_image",
+          "type": "file",
+          "description": "learn_more_image_description",
+          "label": "learn_more_image_label"
         }
       ]
     },
